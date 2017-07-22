@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2017, 7:22:39 PM
+    Author     : 00140231-Ana Leon
+*/
+
+#cabecera{
+    font-family: Gisha; 
+    font-size: 80px;
+    text-align: center;
+    color: olivedrab;
+}
+
+#cabecera span{
+    font-family: Gisha; 
+    font-size: 50px;
+    text-align: center;
+    color: teal;
+}
+
+#cabecera li{
+    list-style-type: none;
+    display: inline;
+    border: 1px solid #7C7C7C;
+    padding: .2em .6em .2em .6em;
+    text-decoration: none;
+    font-size: 30px;
+    color: olive;
+    background: greenyellow;
+    border-radius: 20px;
+}
+
+#cuerpo {
+    font-family: Gadugi; 
+    font-size: 30px;
+    text-align: center;
+    color: greenyellow;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: teal;
+}
+
+#cuerpo img{
+    width: 1167px;
+    height: 500px;
+    display: block;
+    margin-top: 50px;
+}
+
+#parrafo{
+    font-family: Gisha; 
+    font-size: 15px;
+    text-align: center;
+    background: darkseagreen;
+}
+
+#parrafo img{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+
+#cabecera a:link a:visited{
+    font-size: 20px;
+    color: darkseagreen;
+    text-decoration: none;
+}
+
+
+#cabecera ul li:hover{
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+    background: olive;
+    font-size: 35px;
+}
+
+
+form{
+    margin: 0 auto;
+    width:800px;
+    background: teal;
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin-bottom: 1em;
+}
+
+div form{
+    margin-top: 1em; 
+}
+
+label{
+    display:inline-block;
+    width:100px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5em;
+}
+
+input,textarea,select{
+    width:200px;
+    font: 1em sans-serif;
+    margin-bottom: 2em;
+}
+
+input:hover, textarea:hover, select:hover, label:hover{
+  border: 1px solid #000;
+  border-color: red;
+  /*background: red;*/
+}
+
+textarea{
+    vertical-align: top;
+}
+
+button{
+    font-size: 14px;
+}
